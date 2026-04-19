@@ -1,25 +1,25 @@
 class Commandok < Formula
   desc "Spotlight-like command generator for your terminal, powered by LLMs"
   homepage "https://github.com/64bit/commandOK"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/64bit/commandOK/releases/download/v0.1.5/commandok-aarch64-apple-darwin.tar.xz"
-      sha256 "b895cb78f0ac55c89fd0f8badace9ecf49e68874c920692fce50190c2cf913f8"
+      url "https://github.com/64bit/commandOK/releases/download/v0.1.6/commandok-aarch64-apple-darwin.tar.xz"
+      sha256 "f56e9b371293e6fdd7865f5cfee9a158fa866fb5af38b6800c019310ca3983b7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/64bit/commandOK/releases/download/v0.1.5/commandok-x86_64-apple-darwin.tar.xz"
-      sha256 "06ea892e577f9b1de2be6c049945ee9861aac797fce39a7d24969970c4623ed8"
+      url "https://github.com/64bit/commandOK/releases/download/v0.1.6/commandok-x86_64-apple-darwin.tar.xz"
+      sha256 "1495f3a83b8e4b533df9d38c38d85232828391e670e729ee6f3204d31fae319c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/64bit/commandOK/releases/download/v0.1.5/commandok-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "df3e68aef368f678f1c429c2f5446588926682e59ab4a3a7a26f208426d3a892"
+      url "https://github.com/64bit/commandOK/releases/download/v0.1.6/commandok-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "42c17be793c7f69429bf023e3e8f0a5bd3f7bd369530d90634025932f01b4ce2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/64bit/commandOK/releases/download/v0.1.5/commandok-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6140b3c9892f2c022247cec8e9b665c8fedd95c31559933360f7e12e5f5a09fe"
+      url "https://github.com/64bit/commandOK/releases/download/v0.1.6/commandok-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7139f38ab680a98ae88c71964d7a9fbd95579e8de80d7f0c4b06ad83d16c2504"
     end
   end
   license "MIT"
